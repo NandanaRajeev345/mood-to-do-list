@@ -41,12 +41,17 @@ python app.py
 For Software:
 
 # Screenshots (Add at least 3)
-![]("./home.png")
+![](./home.png)
 Homepage of the Mood To Do List Application showing the main navigation menu and welcome message
 
+![](./add%20task%20(2).png)
 Add new task page of the Mood To List Application where users can enter a task name,select a Mood,and optionally enable Mood prediction for Non living things before adding the tasks
 
+
+![](./viewtask.png)
 View Task page of the Mood To Do List Application showing all added tasks with options to filter by Mood,Edit,Delete or mark them as completed.
+
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
