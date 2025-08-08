@@ -59,7 +59,8 @@ View Task page of the Mood To Do List Application showing all added tasks with o
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+
+<video width="630" height="300" src="./video.mp4" controls></video>
 *Explain what the video demonstrates*
 
 ## Team Contributions
