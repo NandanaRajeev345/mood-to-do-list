@@ -127,6 +127,16 @@ def contact():
     if request.method == 'POST':
         return "Thanks for contacting us!"
     return render_template('contact.html')
+from sticker_picker import get_sticker_for_mood
+@app.route('/recommend/<mood>')
+def recommend(mood):
+    sticker_filename = get_sticker_for_mood(mood)
+    if sticker_filename:
+        # Build the URL to the static image
+        sticker_url = url_for('static', filename=f'stickers/{sticker_filename}')
+    else:
+        sticker_url = None  # or some default image URL
 
+    return render_template('recommend.html', sticker_url=sticker_url, mood=mood)
 if __name__ == '__main__':
     app.run(debug=True)
