@@ -41,7 +41,7 @@ python app.py
 For Software:
 
 # Screenshots (Add at least 3)
-
+![]("./home.png")
 Homepage of the Mood To Do List Application showing the main navigation menu and welcome message
 
 Add new task page of the Mood To List Application where users can enter a task name,select a Mood,and optionally enable Mood prediction for Non living things before adding the tasks
