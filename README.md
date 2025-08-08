@@ -12,7 +12,6 @@
 - Team Lead: Krishna Krishnakumar - Muthoot Institute of Technology and Science
 - Member 2: Nandana Rajeev - Muthoot Institute of Technology and Science
 
-
 ### Project Descriptions 
 Mood-Driven Task Manager: A fun to-do list app that not only tracks your tasks but predicts moods—even for non-living things!
 
@@ -60,8 +59,14 @@ View Task page of the Mood To Do List Application showing all added tasks with o
 ### Project Demo
 # Video
 
-<video width="630" height="300" src="./video.mp4" controls></video>
 *Explain what the video demonstrates*
+
+
+https://github.com/user-attachments/assets/b5e7ea3f-f26d-4531-8f19-61dc1224d3d0
+
+
+
+
 
 ## Team Contributions
 - Krishna Krishnakumar: Design and developed the Mood To Do List,the user interface including navigation ,task management pages,and overall layout styling
