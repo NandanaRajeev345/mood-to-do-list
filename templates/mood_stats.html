@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><title>Mood Stats</title><link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <nav>
+  <a href="{{ url_for('home') }}">Home</a> |
+  <a href="{{ url_for('add_task') }}">Add Task</a> |
+  <a href="{{ url_for('view_tasks') }}">View Tasks</a> |
+  <a href="{{ url_for('mood_stats') }}">Mood Stats</a> |
+  <a href="{{ url_for('completed_tasks_page') }}">Completed Tasks</a> |
+  <a href="{{ url_for('about') }}">About</a> |
+  <a href="{{ url_for('profile') }}">Profile</a> |
+  <a href="{{ url_for('settings') }}">Settings</a> |
+  <a href="{{ url_for('help') }}">Help</a> |
+  <a href="{{ url_for('contact') }}">Contact</a>
+</nav>
+<hr>
+
+  <h1>Mood Statistics</h1>
+
+  <ul>
+    {% for mood, count in mood_counts.items() %}
+      <li>{{ mood }}: {{ count }}</li>
+    {% else %}
+      <li>No tasks to show stats.</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

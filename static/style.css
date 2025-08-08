@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+body {
+  background: #fff8f0;
+  font-family: 'Reenie Beanie', cursive;
+  color: #5a4d41;
+  margin: 0;
+  padding: 40px 20px;
+  text-align: center; /* Center all text */
+  min-height: 100vh;
+}
+
+nav {
+  background: #f6d8ae;
+  padding: 15px 30px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  box-shadow: 0 4px 8px rgba(246, 216, 174, 0.6);
+}
+
+nav a {
+  color: #7a5c3f;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f89b64;
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px #fce7d3;
+  color: #8c6d5b;
+}
+
+p, label {
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #6d5a4f;
+}
+
+form {
+  background: #f9f3e8;
+  padding: 25px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(246, 216, 174, 0.4);
+  max-width: 400px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 1.4rem;
+  padding: 10px 15px;
+  margin-bottom: 25px;
+  border: 2px solid #f6d8ae;
+  border-radius: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #5a4d41;
+  transition: border-color 0.3s ease;
+  text-align: center;
+  resize: none;
+}
+
+button {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 1.8rem;
+  background: #f6d8ae;
+  border: none;
+  padding: 12px 45px;
+  border-radius: 30px;
+  color: #7a5c3f;
+  cursor: pointer;
+  box-shadow: 0 6px 10px rgba(246, 216, 174, 0.7);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background: #f89b64;
+  color: #fff8f0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 450px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+ul li {
+  background: #fff2e8;
+  color: #7a5c3f;
+  font-size: 1.6rem;
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(246, 216, 174, 0.5);
+  letter-spacing: 0.6px;
+}
+
+/* Links inside content */
+a {
+  color: #f89b64;
+  font-weight: bold;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
