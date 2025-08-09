@@ -1,7 +1,9 @@
 from flask import Flask, render_template, request, redirect, url_for
 from collections import Counter
 import random
+import os
 
+port=os.environ.get("PORT", 5000)
 app = Flask(__name__)
 
 tasks = []
@@ -139,4 +141,4 @@ def recommend(mood):
 
     return render_template('recommend.html', sticker_url=sticker_url, mood=mood)
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,port=port)
